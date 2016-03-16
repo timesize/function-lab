@@ -1,6 +1,6 @@
 # Functions Drills Lab
 
-Practice creating functions!
+Practice creating functions! Fork and clone this repository. 
 
 ### `maxOrMin(num1, num2, max)`
 
@@ -37,16 +37,16 @@ Your `filter` function should create a new array. The `filter` function should u
 	// YOUR CODE IN HERE!
 
 	}
-
-  // example code to test your function with:
-	var isOdd = function(num) { 	
-		return num % 2 !== 0;
-	};
-
-  filter ([0,1,2,3,4,5], isOdd);
-	// returns [1, 3, 5]
-
-  // you could also try using your isPrime function as the callback:
-  filter ([8,6,7,5,3,0,9], isPrime);
-  // returns [7,5,3]
+	
+	  // example code to test your function with:
+		var isOdd = function(num) { 	
+			return num % 2 !== 0;
+		};
+	
+	  filter ([0,1,2,3,4,5], isOdd);
+		// returns [1, 3, 5]
+	
+	  // you could also try using your isPrime function as the callback:
+	  filter ([8,6,7,5,3,0,9], isPrime);
+	  // returns [7,5,3]
 	```
