@@ -1,8 +1,8 @@
 ## Solutions
 
-### maxOrMin(num1, num2, max)
+### `maxOrMin(num1, num2, max)`
 
-```
+```js
 // maxOrMin solution
 
 function maxOrMin(num1, num2, max) {
@@ -20,9 +20,9 @@ function maxOrMin(num1, num2, max) {
 }
 ```
 
-### sillySum(arr)
+### `sillySum(arr)`
 
-```
+```js
 // sillySum solution
 
 var sillySum = function(arr) {
@@ -40,9 +40,9 @@ var anotherArray = [20, 36, 79, 13, 57];
 console.log(sillySum(anotherArray));
 ```
 
-### numSquare(max)
+### `numSquare(max)`
 
-```
+```js
 // numSquare solution
 
 var numSquare = function(max) {
@@ -71,8 +71,9 @@ var numSquare = function(max) {
 };
 ```
 
-### isPrime(num)
-```
+### `isPrime(num)`
+
+```js
 // isPrime solution
 
 var isPrime = function(num) {
@@ -91,8 +92,9 @@ console.log(isPrime(9)); // returns false
 console.log(isPrime(7)); // returns true
 ```
 
-### primes(max)
-```
+### `primes(max)`
+
+```js
 // use the isPrime function from the previous problem, defined again here
 
 var isPrime = function(num) {
@@ -118,7 +120,7 @@ var primes = function(max) {
 primes(100);
 ```
 
-###
+### `filter`
 
 ```js
 var filter = function(arr, callback) {
