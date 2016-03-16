@@ -38,15 +38,14 @@ var filter = function(arr, callback) {
 
 }
 
-  // example code to test your function with:
-	var isOdd = function(num) { 	
-		return num % 2 !== 0;
-	};
+// example code to test your function with:
+var isOdd = function(num) { 	
+  return num % 2 !== 0;
+};
+filter ([0,1,2,3,4,5], isOdd);
+// returns [1, 3, 5]
 
-  filter ([0,1,2,3,4,5], isOdd);
-	// returns [1, 3, 5]
-
-  // you could also try using your isPrime function as the callback:
-  filter ([8,6,7,5,3,0,9], isPrime);
-  // returns [7,5,3]
+// you could also try using your isPrime function as the callback:
+filter ([8,6,7,5,3,0,9], isPrime);
+// returns [7,5,3]
 ```
