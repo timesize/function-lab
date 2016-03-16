@@ -31,22 +31,22 @@ Write a function called `filter` that filters elements of an array based on a ca
 `filter` takes in an array and another function (a callback).  The callback for `filter` will take in a number and return `true` or `false` (like `isPrime` does!).
 Your `filter` function should create a new array. The `filter` function should use the callback on each element of the original array. When the callback returns true for an element, `filter` should add that element to the new array. Make `filter` return the new array at the end!
 
-	```js
-	// starter structure for our filter function
-	var filter = function(arr, callback) {
-	// YOUR CODE IN HERE!
+```js
+// starter structure for our filter function
+var filter = function(arr, callback) {
+// YOUR CODE IN HERE!
 
-	}
-	
-	  // example code to test your function with:
-		var isOdd = function(num) { 	
-			return num % 2 !== 0;
-		};
-	
-	  filter ([0,1,2,3,4,5], isOdd);
-		// returns [1, 3, 5]
-	
-	  // you could also try using your isPrime function as the callback:
-	  filter ([8,6,7,5,3,0,9], isPrime);
-	  // returns [7,5,3]
-	```
+}
+
+  // example code to test your function with:
+	var isOdd = function(num) { 	
+		return num % 2 !== 0;
+	};
+
+  filter ([0,1,2,3,4,5], isOdd);
+	// returns [1, 3, 5]
+
+  // you could also try using your isPrime function as the callback:
+  filter ([8,6,7,5,3,0,9], isPrime);
+  // returns [7,5,3]
+```
