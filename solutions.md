@@ -130,6 +130,7 @@ var filter = function(arr, callback) {
         newArr.push(arr[i]);
       }
     }
+  return newArr;
 }
 
 var isOdd = function(num) { 	
