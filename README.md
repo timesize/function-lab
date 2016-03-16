@@ -1,6 +1,6 @@
 # Functions Drills Lab
 
-Practice creating functions! Fork and clone this repository. 
+Practice creating functions! 
 
 ### `maxOrMin(num1, num2, max)`
 
